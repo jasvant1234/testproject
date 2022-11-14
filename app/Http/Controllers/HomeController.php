@@ -54,6 +54,7 @@ class HomeController extends Controller
     }
     public function profile_update(Request $request,$id)
     {
+        echo "hi";
 
         $input = $request->all();
         $data = User::find($id);
