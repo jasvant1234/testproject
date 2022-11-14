@@ -6,6 +6,7 @@
 <div class="row">
 {{--    <div class="col-xl-4">--}}
 
+    
         <div class="card" style="height: 400px;border-radius: 100px;margin-left: 30px;">
             <div class="card-body profile-card pt-4 d-flex flex-column align-items-center">
                 @if(isset(Auth::user()->profile_image))
